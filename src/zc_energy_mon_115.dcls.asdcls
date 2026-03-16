@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_ENERGY_MON_115'
+@MappingRole: true
+define role ZC_ENERGY_MON_115 {
+  grant select on ZC_ENERGY_MON_115
+  where INHERITING CONDITIONS FROM ENTITY ZR_ENERGY_MON_115 REPLACING { ROOT WITH _BaseEntity };
+}

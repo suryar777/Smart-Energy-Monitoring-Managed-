@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_ENERGY_MON_115'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ENERGY_MON_115'
+  }
+}
+define service ZUI_ENERGY_MON_115_O4 provider contracts odata_v4_ui {
+  expose ZC_ENERGY_MON_115;
+}

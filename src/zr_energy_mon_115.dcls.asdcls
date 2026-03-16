@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_ENERGY_MON_115'
+@MappingRole: true
+define role ZR_ENERGY_MON_115 {
+  grant select on ZR_ENERGY_MON_115
+  where TRUE;
+}
